@@ -4,9 +4,9 @@ import { useScrollTop } from "@/hooks/use-scroll-top";
 import { ModeToggle } from "@/components/mode-toggle";
 import { cn } from "@/lib/utils";
 
-import { Logo } from "./logo";
+import { Logo } from ".";
 
-export const Navbar = () => {
+const Navbar = () => {
   const scrolled = useScrollTop();
 
   return (
@@ -23,3 +23,5 @@ export const Navbar = () => {
     </div>
   );
 };
+
+export default Navbar;
