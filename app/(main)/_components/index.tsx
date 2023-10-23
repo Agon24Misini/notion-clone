@@ -1,3 +1,4 @@
 import Navigation from "./navigation";
+import UserItem from "./user-item";
 
-export { Navigation };
+export { Navigation, UserItem };
